@@ -3,11 +3,15 @@ import "./Signup.css";
 import axios from "axios";
 
 const Signup = () => {
-  const [userName, setUserName] = useState();
-  const [userPassword, setUserPassword] = useState();
-  const onFormSumbmit = (e) => {
+  const [userName, setUserName] = useState("");
+  const [userPassword, setUserPassword] = useState("");
+  const onFormSumbmit = async (e) => {
     e.preventDefault();
-    // axios.post("/user/signup", { userName, userPassword });
+    const response = await axios.post("http://localhost:5000/users/signup", {
+      userName,
+      userPassword,
+    });
+    console.log(response);
   };
   return (
     <div>

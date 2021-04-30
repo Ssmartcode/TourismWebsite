@@ -1,0 +1,7 @@
+footer {
+  padding: 1rem 2rem;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+}

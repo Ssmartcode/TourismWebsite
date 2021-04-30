@@ -104,16 +104,16 @@ const AnimatedSVG = () => {
         transform="translate(-156 -131.23696)"
         fill="none"
         stroke="#2f2e41"
-        stroke-miterlimit="10"
-        stroke-width="3"
+        strokeMiterlimit="10"
+        strokeWidth="3"
       />
       <path
         d="M263.97781,602.42464s-15.80226,57.53644-16.20744,65.64016-6.88817,66.04535-14.99189,72.12314"
         transform="translate(-156 -131.23696)"
         fill="none"
         stroke="#2f2e41"
-        stroke-miterlimit="10"
-        stroke-width="3"
+        strokeMiterlimit="10"
+        strokeWidth="3"
       />
       <path
         d="M308.55947,195.98021s-6.32846-16.454,2.84781-21.83318l2.53138,7.27773s23.09887-13.92261,29.1109-10.75838l-5.69561,7.59415s26.89594,0,28.79448,10.442l-9.49269.31642s10.12554,6.64488,10.442,17.40326l-20.25106,1.26569,9.8091,5.69561s-36.705,5.06276-45.56489-9.49269Z"
@@ -182,8 +182,8 @@ const AnimatedSVG = () => {
         y2="636.96158"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <circle
         cx="366.35223"
@@ -191,8 +191,8 @@ const AnimatedSVG = () => {
         r="14.75556"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <circle
         cx="802.35223"
@@ -200,8 +200,8 @@ const AnimatedSVG = () => {
         r="14.75556"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <circle
         cx="701.61889"
@@ -209,8 +209,8 @@ const AnimatedSVG = () => {
         r="14.75556"
         fill="none"
         stroke="#3f3d56"
-        stroke-miterlimit="10"
-        stroke-width="2"
+        strokeMiterlimit="10"
+        strokeWidth="2"
       />
       <circle cx="604.80775" cy="323.9214" r="16.55902" fill="#3f3d56" />
       <circle cx="657.99881" cy="270.69736" r="21.82779" fill="#fff" />

@@ -5,6 +5,7 @@ import axios from "axios";
 import "./App.css";
 // components
 import Header from "./components/shared/header/Header";
+import Footer from "./components/shared/footer/Footer";
 // pages
 import Home from "./pages/home/Home";
 import Signup from "./pages/signUp/Signup";
@@ -17,7 +18,7 @@ function App() {
       setMessage(data.data.message);
     };
     fetchData();
-  });
+  }, []);
   return (
     <React.Fragment>
       <Router>
@@ -30,6 +31,7 @@ function App() {
             <Signup />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </React.Fragment>
   );
