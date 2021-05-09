@@ -18,7 +18,7 @@ const Card = (props) => {
           <div className="price-value">{props.price}$</div>
         </div>
         <a
-          href="https://google.com"
+          href={props.readMoreLink}
           className="read-more btn btn-danger text-light mt-2"
         >
           Read more...

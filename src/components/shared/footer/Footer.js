@@ -1,9 +1,10 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light">
-      <div className="container footer-grid"></div>
+    <footer className="bg-dark text-light p-4 text-center">
+      &copy;Anca Andrei-Razvan 2021
     </footer>
   );
 };

@@ -2,13 +2,13 @@ nav {
   padding: 0 !important;
   background: #f4f4f4;
 }
-a {
+nav a {
   font-size: 1.3rem;
   padding: 2rem 1rem !important;
   transition: all 0.4s !important;
   font-weight: 900;
 }
-a:hover {
+nav a:hover {
   background: var(--seconday-color);
   color: #f4f4f4 !important;
 }
