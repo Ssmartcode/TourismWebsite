@@ -6,7 +6,7 @@ import AuthContext from "../../context/authContext";
 
 const SingleOffer = () => {
   const [offer, setOffer] = useState({});
-  const { isLoading, error, sendRequest } = useHttpRequest();
+  const { sendRequest } = useHttpRequest();
 
   const offerId = useParams().id;
   const authContext = useContext(AuthContext);
@@ -22,7 +22,7 @@ const SingleOffer = () => {
       } catch (err) {}
       console.log("token:" + authContext.token);
     })();
-  }, [authContext]);
+  }, [authContext, offerId, sendRequest]);
   return (
     <section className="single-offer ">
       <div className="container ">
@@ -30,7 +30,7 @@ const SingleOffer = () => {
           <div className="col-12 col-lg-4 p-0">
             <h3 className="p-2 text-center mb-0 bg-light">{offer.title}</h3>
             <img
-              src={`${process.env.REACT_APP_BACKEND}/${offer.image}`}
+              src={`${process.env.REACT_APP_BACKEND}/${offer.image || ""}`}
               alt=""
             />
             <div className="price p-2 bg-light">

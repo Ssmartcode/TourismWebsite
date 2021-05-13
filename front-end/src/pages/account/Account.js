@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext } from "react";
 import useFormValidation from "../../hooks/useFormValidation";
 // context
 import AuthContext from "../../context/authContext";

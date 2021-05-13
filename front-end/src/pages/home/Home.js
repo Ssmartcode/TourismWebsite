@@ -5,7 +5,7 @@ import Showcase from "../../components/home/showcase/Showcase";
 import Card from "../../components/shared/card/Card";
 import Spinner from "../../components/shared/spinner/Spinner";
 const Home = () => {
-  const { isLoading, error, sendRequest } = useHttpRequest();
+  const { isLoading, sendRequest } = useHttpRequest();
   const [offers, setOffers] = useState([]);
 
   useEffect(() => {

@@ -20,7 +20,7 @@ const DashboardPanel = () => {
       <Link to="/dashboard/create">
         <i className="fas fa-folder-plus fa-2x"></i>
       </Link>
-      <Link onClick={handleLogOut}>
+      <Link to="" onClick={handleLogOut}>
         <i className="fas fa-user-slash fa-2x"></i>
       </Link>
     </aside>
